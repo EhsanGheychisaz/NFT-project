@@ -1,0 +1,142 @@
+#hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+#hero-part1{
+    margin-left: 2rem;
+}
+#hero-text{
+    font-style: normal;
+    font-family: 'Tourney', cursive;
+    font-weight: 700;
+    font-size: 54px;
+    color: #ffff;
+}
+#hero-text2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #ffff;
+}
+#hero-word{
+    color: rgb(129, 0, 90);
+    font-family:'Tourney', cursive;
+}
+#hero-but1{
+    width: 10rem;
+    height: 4rem;
+    color: #ffff;
+    border: 0.14rem solid #4e3fee;
+    background-color:#14141f ;
+    border: solid  rgb(129, 0, 90) 0.2rem;
+    border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+    margin-right: 0.5rem;
+    margin-top: 1.5rem;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+#hero-but2{
+    width: 10rem;
+    height: 4rem;
+    color: #ffff;
+    background-color:#14141f ;
+    border: solid  rgb(129, 0, 90) 0.2rem;
+    border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+    margin-top: 1.5rem;
+}
+#hero_img_path{
+    background: none;
+    position: absolute;
+    left: 42rem;
+    bottom: 0.2rem;
+    animation: bright 3s infinite;
+    -webkit-animation: bright 3s infinite ;
+}
+#hero_img_hero{
+    position: relative;
+    background: none;
+    right: 15rem;
+    bottom: 5rem;
+    animation: move 1.3s infinite;
+    -webkit-animation: move 1.3s infinite;
+}
+@keyframes move {
+    0% {transform:translateY(0);} 
+    10% {transform: translateY(0.35rem);}
+    20% {transform: translateY(0.5rem);}
+    30% {transform: translateY(0.8rem);}
+    40% {transform: translateY(1rem);}
+    50% {transform: translateY(1.2rem);}
+    60% {transform: translateY(1rem);}
+    70% {transform: translateY(0.8rem);}
+    80% {transform: translateY(0.5rem);}
+    90% {transform: translateY(0.35rem);}
+    100% {transform:translateY(0);} 
+
+}
+@keyframes bright {
+    0% {filter: brightness(0.5);}
+    50% {filter: brightness(1.5);}
+    100% {filter: brightness(0.5);}
+}
+.list-bar{
+    margin-top: 1.5rem;
+}
+#list--bar{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: snow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#text-subject{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+#text-list{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0.3rem;
+}
+#list_bar{
+    padding: 0.3rem;
+    width: 18rem;
+    height: 12rem;
+    border-radius: 20% 20% 20% 20% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#list-icon1{
+    border: 0.7rem solid blue;
+    border-radius: 25% 25% 25% 25%;
+    background: none;
+    background-color:blue;
+    filter: drop-shadow(2px 4px 8px #585858);
+}
+#list-icon2{
+    border: 0.7rem solid green;
+    border-radius: 25% 25% 25% 25%;
+    background: none;
+    background-color:green;
+    filter: drop-shadow(2px 4px 8px #585858);
+}
+#list-icon3{
+    border: 0.7rem solid purple;
+    border-radius: 25% 25% 25% 25%;
+    background: none;
+    background-color: purple;
+    filter: drop-shadow(2px 4px 8px #585858);
+}
+#list-icon4{
+    border: 0.7rem solid red;
+    border-radius: 25% 25% 25% 25%;
+    background: none;
+    background-color:red;
+    filter: drop-shadow(2px 4px 8px #585858);
+}
