@@ -29,7 +29,7 @@
     margin-top: 5rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    width: 100%;
+    width: 120%;
     height: 50rem;
     transition: 0.3s;
   }
@@ -57,6 +57,10 @@
   }
   .card__img{
     display:block;
+    position: absolute;
+    top: 2rem;
+    right: 0.05rem;
+    left: 0.01rem;
     padding: 1rem;
     z-index: 10;
   }
