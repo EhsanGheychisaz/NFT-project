@@ -69,3 +69,58 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+.collection-main-card--footer-over{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1rem
+}
+.main--footer-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.collection-main-card--footer{
+    margin-top: 2rem;
+}
+.main--footer-text img{
+    margin-right: 0.5rem;
+}
+.topseller-head{
+    color: #ffff;
+    font-size: 3rem;
+    margin: 3rem;
+}
+.topseller-main-card{
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#topseller-main-card-img-img{
+    position: absolute;
+    z-index: 10;
+}
+#topseller-main-card-img-icon{
+    z-index: 50;
+    position: relative;
+    top: 2.5rem;
+    left: 3rem;
+    border: solid 0.2rem #4e3fee;
+    border-radius: 100% 100% 100% 100%;
+    color: snow;
+    background-color: #4e3fee;
+}
+.topseller-main-card-text{
+    color: snow;
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+}
+.topseller-main-card-text-p2{
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    color: #343444;
+}
