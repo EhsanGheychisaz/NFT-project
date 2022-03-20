@@ -1,8 +1,8 @@
 #swipear{
+  width: 100%;
     height: 100%;
     margin-top: 3rem;
-    left: 0;
-    background-color: black;
+     background-color: black;
     padding: 1rem;
     overflow-x: hidden;
 
@@ -26,15 +26,9 @@
 }
 
 .swiper{
-    margin-top: 5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    width: 120%;
-    height: 50rem;
-    transition: 0.3s;
-  }
-.swiper:hover{
-    transform: rotateY(2rem);
+    margin-top: 8rem;
+    width: 100%;
+    height: 35rem;
   }
   .swiper-slide {
     text-align: center;
@@ -54,21 +48,23 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    transition: 0.3s;
+  }
+  .swiper-slide:hover .btn__primary{
+    visibility: visible;
   }
   .card__img{
-    display:block;
     position: absolute;
     top: 2rem;
-    right: 0.05rem;
-    left: 0.01rem;
-    padding: 1rem;
+    left: 0.5rem;
+    right: 0.5rem;
     z-index: 10;
   }
   .btn__primary{
     position: absolute;
-    visibility: visible;
+    visibility: hidden;
     top: 8rem;
-    right: 9.5rem;
+    right: 6.5rem;
     width: 5rem;
     height: 2rem;
     z-index: 60;
@@ -84,6 +80,60 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+  }
+  .card__countdown{
+    width: 50%;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    border: solid 0.2rem #4e3fee;
+    border-radius: 2rem 2rem;
+    background-color: #4e3fee;
+    color: snow;
+  }
+  .card__content{
+    margin-top: 18rem;
+  }
+  .card-header__data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+  .card-creator__data{
+    margin-left: 0.5rem;
+  }
+  .card__bsc-tag{
+    border: 0.3rem solid #4e3fee;
+    background-color: #4e3fee;
+    border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+    color: snow;
+    margin-left: 0.5rem;
+  }
+  .line-2 {
+    border-top: 1px solid black;
+    margin-top: 0.5rem;
+  }
+  .swper-overflow{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .swper-overflow-tag{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .swper-overflow--icon{
+    margin-left: 1rem;
+    border: 0.15rem solid black;
+    color: snow;
+    background-color: black;
+    border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
   }
   /*.swiper-slide img {
     display: block;
