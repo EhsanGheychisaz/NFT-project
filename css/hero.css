@@ -30,8 +30,9 @@
     height: 4rem;
     color: #ffff;
     border: 0.14rem solid #4e3fee;
-    background-color:#14141f ;
-    border: solid  rgb(129, 0, 90) 0.2rem;
+    color: #4e3fee;
+    background-color:#2F0743 ;
+    border: solid  #4e3fee 0.2rem;
     border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
     margin-right: 0.5rem;
     margin-top: 1.5rem;
@@ -42,10 +43,15 @@
     width: 10rem;
     height: 4rem;
     color: #ffff;
-    background-color:#14141f ;
-    border: solid  rgb(129, 0, 90) 0.2rem;
+    background-color:#2F0743 ;
+    color: #4e3fee;
+    border: solid  #4e3fee 0.2rem;
     border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
     margin-top: 1.5rem;
+}
+#hero-but2:hover,#hero-but1:hover{
+    background-color: #4e3fee;
+    color: snow;
 }
 #hero_img_path{
     background: none;
