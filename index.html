@@ -4,6 +4,7 @@
     <head>
         <link rel="stylesheet" href="/css/layout.css">
         <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/login.css">
         <link rel="stylesheet" href="/css/hero.css">
         <link rel="stylesheet" href="/css/lastsection.css">
         <link rel="stylesheet" href="/css/footer.css">
@@ -51,10 +52,70 @@
                     <span id="nav-icon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                     <button id="nav-btn"><i id="nav--btn_icon" class="fa-solid fa-wallet"></i>Wallet connect</button>
                     <i  id="nav-icon3" class="fa-solid fa-sun fa-2x"></i>
-                    <i id="nav-icon2" class="fa-solid fa-moon fa-2x"></i>
+                    <a href="#popup1"><i id="nav-icon2" class="fa-solid fa-moon fa-2x"></i></a>
                  </div>
                  
             </nav>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                  <div class="popup__header">
+                    <img
+                      src="/images/register1.jpg"
+                      alt=""
+                      width="400px"
+                      height="505px"
+                    />
+                  </div>
+                  <div class="popup__main">
+                    <div class="popup__main-head"><h3>Sign In</h3></div>
+                    <form action="#">
+                      <div class="email_total">
+                        <label for="Email">Email</label>
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          placeholder="Enter Your Email"
+                        />
+                      </div>
+                      <div class="password_total">
+                        <label for="password">Password</label>
+                        <input
+                          type="password"
+                          name="password"
+                          id="password"
+                          placeholder="Enter Your Password"
+                        />
+                      </div>
+                      <div class="signIn_btn--total">
+                        <button type="submit">Sign in</button>
+                      </div>
+                    </form>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                      <div class="new_on_our_platform">
+                        <div class="row">
+                          <span class="row-or">or</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="register_social--total">
+                      <div class="facebook-i">
+                        <i class="fa-brands fa-facebook"></i>
+                      </div>
+                      <div class="twitter-i">
+                        <i class="fa-brands fa-twitter"></i>
+                      </div>
+                      <div class="mail-i">
+                        <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <div class="github-i">
+                        <i class="fa-brands fa-github"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </header>
         <main>
             <section class="hero">
