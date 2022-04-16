@@ -1,140 +1,171 @@
-#swipear{
+#swipear {
   width: 100%;
-    height: 100%;
-    margin-top: 3rem;
-     background-color: black;
-    padding: 1rem;
-    overflow-x: hidden;
+  height: 100%;
+  margin-top: 3rem;
+  background-color: black;
+  padding: 1rem;
+  overflow-x: hidden;
 }
-#swipear1{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: normal;
-    font-size: 3rem; 
-    color: #ffff;
-    float: left;
-    margin-left: 2rem;
+#swipear1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+  color: #ffff;
+  float: left;
+  margin-left: 2rem;
 }
-#swipear2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: normal;
-    font-size: 0.8rem; 
-    color: #ffff;
-    margin-top: 1.5rem;
-    float: right;
-    margin-right: 2rem;
+#swipear2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 0.8rem;
+  color: #ffff;
+  margin-top: 1.5rem;
+  float: right;
+  margin-right: 2rem;
 }
 
-.swiper{
-    margin-top: 8rem;
-    width: 100%;
-    height: 35rem;
-  }
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background:#343444;
-    border-radius: 3rem 3rem 3rem 3rem;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    transition: 0.3s;
-  }
-  .swiper-slide:hover .btn__primary{
-    visibility: visible;
-  }
-  .card__img{
-    position: absolute;
-    top: 2rem;
-    left: 0.5rem;
-    right: 0.5rem;
-    z-index: 10;
-  }
-  .btn__primary{
-    position: absolute;
-    visibility: hidden;
-    top: 8rem;
-    right: 6.5rem;
-    width: 5rem;
-    height: 2rem;
-    z-index: 60;
-  }
-  #swiper-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  #swiper--list{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  .card__countdown{
-    width: 50%;
-    margin-top: 2rem;
-    margin-left: 4rem;
-    border: solid 0.2rem #4e3fee;
-    border-radius: 2rem 2rem;
-    background-color: #4e3fee;
-    color: snow;
-  }
-  .card__content{
-    margin-top: 18rem;
-  }
-  .card-header__data{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 2rem;
-  }
-  .card-creator__data{
-    margin-left: 0.5rem;
-  }
-  .card__bsc-tag{
-    border: 0.3rem solid #4e3fee;
-    background-color: #4e3fee;
-    border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
-    color: snow;
-    margin-left: 0.5rem;
-  }
-  .line-2 {
-    border-top: 1px solid black;
-    margin-top: 0.5rem;
-  }
-  .swper-overflow{
-    margin-top: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .swper-overflow-tag{
-    margin-top: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  .swper-overflow--icon{
-    margin-left: 1rem;
-    border: 0.15rem solid black;
-    color: snow;
-    background-color: black;
-    border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
-  }
-  /*.swiper-slide img {
+.swiper {
+  margin-top: 8rem;
+  width: 100%;
+  height: 35rem;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #343444;
+  border-radius: 3rem 3rem 3rem 3rem;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.swiper-slide:hover .btn__primary {
+  visibility: visible;
+}
+.card__img {
+  position: absolute;
+  top: 2rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  z-index: 10;
+}
+.btn__primary {
+  position: absolute;
+  visibility: hidden;
+  overflow: hidden;
+  top: 8rem;
+  right: 5.8rem;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 15% 15%;
+  background: none;
+  border: solid 0.3rem snow;
+  z-index: 60;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+.btn__primary::after {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3rem;
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 0.5s ease;
+  -webkit-transition: all 0.5s;
+  z-index: -1;
+}
+.btn__primary:hover::after {
+  width: 100%;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+.btn__primary:hover {
+  border: 2px solid transparent;
+  color: indigo;
+}
+#swiper-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#swiper--list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.card__countdown {
+  width: 50%;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  border: solid 0.2rem #4e3fee;
+  border-radius: 2rem 2rem;
+  background-color: #4e3fee;
+  color: snow;
+}
+.card__content {
+  margin-top: 18rem;
+}
+.card-header__data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+.card-creator__data {
+  margin-left: 0.5rem;
+}
+.card__bsc-tag {
+  border: 0.3rem solid #4e3fee;
+  background-color: #4e3fee;
+  border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+  color: snow;
+  margin-left: 0.5rem;
+}
+.line-2 {
+  border-top: 1px solid black;
+  margin-top: 0.5rem;
+}
+.swper-overflow {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.swper-overflow-tag {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.swper-overflow--icon {
+  margin-left: 1rem;
+  border: 0.15rem solid black;
+  color: snow;
+  background-color: black;
+  border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+}
+/*.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
