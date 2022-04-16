@@ -1,5 +1,6 @@
 "use strict";
-
+console.log("fuck");
+console.log(document.querySelector(".swper-overflow--icon").textContent);
 document
   .querySelector(".main__bodylist-featur")
   .addEventListener("click", function () {
