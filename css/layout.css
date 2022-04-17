@@ -25,14 +25,16 @@ header {
 main {
   position: inherit;
   padding-top: 2rem;
+  padding-left: 2.5rem;
 }
 .nft--main {
   margin: 3rem;
 }
 .main--bodylist {
-  width: 2rem;
+  width: 3.5rem;
+  height: 15rem;
   position: absolute;
-  left: -2.5rem;
+  left: -3.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -42,7 +44,7 @@ main {
   z-index: 100;
   border: solid 0.1rem #2f0743;
   background-color: #14141f;
-  border-radius: 10% 10% 10% 10%;
+  border-radius: 8% 8% 8% 8%;
   filter: drop-shadow(4px 6px 10px #585858);
   transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -52,10 +54,12 @@ main {
   height: 3rem;
   border-radius: 50% 50% 50% 50%;
   background-color: snow;
+  transform: rotate(90deg);
   text-align: center;
   position: fixed;
   z-index: 150;
-  bottom: 1rem;
+  bottom: 7.5rem;
+  left: -0.5rem;
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
