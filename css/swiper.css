@@ -1,10 +1,11 @@
 #swipear {
-  width: 100%;
+  width: 98%;
   height: 100%;
   margin-top: 3rem;
   background-color: black;
-  padding: 1rem;
   overflow-x: hidden;
+  padding: 0.5rem;
+  border-radius: 3% 3%;
 }
 #swipear1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
