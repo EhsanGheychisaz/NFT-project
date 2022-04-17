@@ -9,3 +9,7 @@ document
       "hidden";
     document.querySelector(".main--bodylist").style.left = "0.5rem";
   });
+window.onclick = setInterval(function () {
+  document.querySelector(".main__bodylist-featur").style.visibility = "visible";
+  document.querySelector(".main--bodylist").style.left = "-3.5rem";
+}, 3000);
