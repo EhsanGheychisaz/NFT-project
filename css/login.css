@@ -83,6 +83,12 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+.popup__main-head form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 .email_total input,
 .password_total input {
   border-radius: 5% 5% 5% 5%;
@@ -91,15 +97,19 @@
   width: 90%;
 }
 .signIn_btn--total button {
-  width: 92%;
-  margin-left: 3%;
+  width: 80%;
+  margin-left: 7%;
   margin-top: 10%;
   padding: 2%;
   font-size: 120%;
   border-color: #6d1f6d;
-  border-radius: 25% 25% 25% 25%;
+  border-radius: 7% 7% 7% 7%;
   color: snow;
   background-color: #6d1f6d;
+  transition: 0.5s;
+}
+.signIn_btn--total button:hover {
+  transform: rotateY(60deg);
 }
 .row {
   margin-top: 5%;
