@@ -1,0 +1,18 @@
+@import "headerpg.css";
+@import "footerpg.css";
+@import "profile.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+.hero {
+  background-image: url("/images/bg.jpg");
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+.
