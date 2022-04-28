@@ -35,6 +35,10 @@
   font-weight: 600;
   font-size: 0.9rem;
 }
+a {
+  text-decoration: none;
+  color: snow;
+}
 #nav_text,
 #nav_text1,
 #nav_text2,
