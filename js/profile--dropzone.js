@@ -5,7 +5,7 @@ function scrollfunc() {
   if (window.pageYOffset > 0) {
     document.querySelector("#nav--bar").style.width = "90%";
     document.querySelector("#nav--bar").style.margin = "3%";
-    document.querySelector("#nav--bar").style.opacity = "85%";
+    document.querySelector("#nav--bar").style.opacity = "89%";
     document.querySelector(".nav--icon2-white").style.right = "13.5rem";
     document.querySelector("#nav--bar").style.background = "#14141f";
   } else {
