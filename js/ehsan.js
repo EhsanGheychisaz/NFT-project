@@ -27,24 +27,33 @@ function scrollfunc() {
   if (window.pageYOffset > 0) {
     document.querySelector("#nav--bar").style.width = "92%";
     document.querySelector("#nav--bar").style.margin = "3%";
+    document.querySelector("#nav--bar").style.opacity = "95%";
   } else {
     document.querySelector("#nav--bar").style.margin = "0%";
     document.querySelector("#nav--bar").style.width = "100%";
+    document.querySelector("#nav--bar").style.opacity = "100%";
   }
 }
+
 for (let i = 1; i < 6; i++) {
   var name = "#nav_icon" + i;
   var list = document.querySelector(`${name}`);
   console.log(list);
-  list.addEventListener("click", function () {
+  list.addEventListener("click", function (list) {
     var name1 = "#nav--textoverflow" + i;
     document.querySelector(`${name1}`).style.height = "7rem";
     document.querySelector(`${name1}`).style.visibility = "visible";
     console.log(document.querySelectorAll("#nave-overflow-text"));
     var name2 = document.querySelectorAll("#nave-overflow-text");
     console.log(name2[i]);
+    setInterval(function () {
+      document.querySelector(`${name1}`).style.visibility = "hidden";
+      document.querySelector(`${name1}`).style.height = "0rem";
+    }, 5000);
   });
 }
+
+// }
 var overlay = document.querySelector(".center");
 /*
 window.addEventListener("load", function () {
